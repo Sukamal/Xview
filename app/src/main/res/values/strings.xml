@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">XView</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!--Login Screen-->
+    <string name="txt_xview">XView</string>
+    <string name="txt_online_id">Online Id</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_forgot_password"><u>Forgot Password?</u></string>
+
+    <string name="error_blank_id">Please enter Online Id</string>
+    <string name="error_blank_password">Please enter password</string>
+    <string name="error_somethingWentWrongError">Sorry, something went wrong</string>
+    <string name="error_networkError">Please connect to the internet</string>
+
+
+    <!--Menu-->
+    <string name="txt_transaction_dashboard">Transaction Dashboard</string>
+    <string name="txt_transaction_list">Transaction Listings</string>
+    <string name="txt_terminal_dashboard">Terminal Dashboard</string>
+    <string name="txt_atm_state_dashboard">ATM State Dashboard</string>
+    <string name="txt_terminal_commands">Terminal Commands</string>
+    <string name="txt_terminal_key_change">Terminal Key Change</string>
+
+    <!-- Transactions List -->
+    <string name="txt_search_transaction">Showing Latest Activity</string>
+    <string name="txt_id">ID:</string>
+    <string name="txt_date_time">D/T:</string>
+    <string name="txt_total_amount">Total Amt:</string>
+    <string name="txt_xctn_type">Xctn Type:</string>
+    <string name="txt_xctn_status">Xctn Status:</string>
+    <string name="txt_req_amount">Requested Amount:</string>
+    <string name="txt_req_surcharge">Requested Surcharge:</string>
+    <string name="txt_completed_amount">Completed Amount:</string>
+    <string name="txt_completed_surcharge">Completed Surcharge:</string>
+    <string name="txt_auth_amount">Authorised Amount:</string>
+    <string name="txt_card_no">Card Number:</string>
+    <string name="txt_receipt_no">Receipt Number:</string>
+    <string name="txt_ref_no">Reference Number:</string>
+    <string name="txt_sequence_no">Sequence Number:</string>
+    <!--<string name="txt_entry_mode">Entry Mode:</string>-->
+    <!--<string name="txt_financial_network">Financial Network:</string>-->
+    <!--<string name="txt_processor">Processor:</string>-->
+    <!--<string name="txt_terminal_id_initiated">Terminal ID(Initiated):</string>-->
+    <!--<string name="txt_terminal_id_completed">Terminal ID(Completed):</string>-->
+
+
+
+
+    <!-- Transactions Details -->
+    <string name="txt_transaction_category">Transaction Category:</string>
+    <string name="txt_transaction_type">TransactionType:</string>
+    <string name="txt_transaction_subtype">Transaction Sub Type:</string>
+    <string name="txt_transaction_system_datetime">Transaction System Date Time:</string>
+    <string name="txt_transaction_datetime">Transaction Date Time:</string>
+    <string name="txt_transaction_status">Transaction Status:</string>
+    <string name="txt_response">Response:</string>
+    <string name="txt_currency">Currency:</string>
+    <string name="txt_requested_amount">Requested Amount:</string>
+    <string name="txt_requested_fee">Requested Fee:</string>
+    <string name="txt_requested_total_amount">Requested Total Amount:</string>
+    <string name="txt_authorized_amount">Authorized Amount:</string>
+    <string name="txt_authorized_currency">Authorized Currency:</string>
+    <string name="txt_received_amount">Received Amount:</string>
+    <string name="txt_received_fee">Received Fee:</string>
+    <string name="txt_received_total_amount">Received Total Amount:</string>
+    <string name="txt_card_account_umber">Card Or Account Number:</string>
+    <string name="txt_card_type">Card Type:</string>
+    <string name="txt_dispensed">Dispensed:</string>
+    <string name="txt_authorization_number">Authorization Number:</string>
+    <string name="txt_everi_receipt_number">EVERIReceipt Number:</string>
+    <string name="txt_reference_number">Reference Number:</string>
+    <string name="txt_sequence_number">Sequence Number:</string>
+    <string name="txt_rrn">RRN:</string>
+    <string name="txt_entry_mode">EntryMode:</string>
+    <string name="txt_address_verification_code">Address Verification Code:</string>
+    <string name="txt_avs_zip_code_verified">AVS Zip Code Verified:</string>
+    <string name="txt_financial_network">Financial Network:</string>
+    <string name="txt_processor">Processor:</string>
+    <string name="txt_settlement_date">Settlement Date:</string>
+    <string name="txt_merchant_id">Merchant ID:</string>
+    <string name="txt_merchant_name">Merchant Name :</string>
+    <string name="txt_country_code">Country Code:</string>
+    <string name="txt_terminal_id_initiated">Terminal ID(Initiated):</string>
+    <string name="txt_terminal_id_completed">Terminal ID(Completed):</string>
+    <string name="txt_terminal_category">Terminal Category:</string>
+    <string name="txt_terminal_type">Terminal Type:</string>
+    <string name="txt_user_id">User ID:</string>
+    <string name="txt_patron_name">Patron Name:</string>
+
+
+    <!-- Transactions Filter -->
+    <string name="txt_select_merchant">Select Merchant</string>
+    <string name="txt_select_status">Select Transaction Status</string>
+    <string name="txt_select_type">Select Transaction Type</string>
+    <string name="txt_select_date">Select Date Range</string>
+    <string name="txt_dates">Select Dates</string>
+    <string name="txt_start_date">Start Date</string>
+    <string name="txt_end_date">End Date</string>
+
+    <!-- Transactions Dashboard -->
+    <string name="txt_current_day">Current Day</string>
+
+    <string name="txt_pos_debit">POS Debit</string>
+    <string name="txt_pinless_credit">Pinless Credit</string>
+    <string name="txt_atm_withdrawal">ATM Withdrawal</string>
+    <string name="txt_atm_bal_inq">Atm Balance Inquiry</string>
+    <string name="txt_check_cash">Check Cashing</string>
+    <string name="txt_dcc_sing">DCC Signature</string>
+
+
+    <!-- ATM state Dashboard -->
+    <string name="txt_atm_state">ATM State</string>
+    <string name="txt_active">Active</string>
+    <string name="txt_nonactive">Non-Active</string>
+
+
+    <!-- Terminal listing -->
+    <string name="txt_search_terminal">Select Terminal</string>
+    <string name="txt_terminal">Terminal</string>
+
+
+    <!-- Terminal Details -->
+    <string name="txt_search_terminal_id">Search Terminal</string>
+    <string name="txt_corporation">Corporation:</string>
+    <string name="txt_merchant">Merchant:</string>
+    <string name="txt_status">Status:</string>
+    <string name="txt_terminal_model">Terminal Model:</string>
+    <!--<string name="txt_terminal_type">Terminal Type:</string>-->
+    <string name="txt_terminal_">Terminal:</string>
+    <string name="txt_datetime">Date/Time:</string>
+    <string name="txt_atm">ATM:</string>
+    <string name="txt_tprocessor">Processor:</string>
+    <string name="txt_terminal_zone">Terminal Zone:</string>
+    <string name="txt_address">Address:</string>
+    <string name="txt_city">City:</string>
+    <string name="txt_state_province">State/Province:</string>
+    <string name="txt_zipcode">Zip Code:</string>
+    <string name="txt_export_status">Export Status:</string>
+    <string name="txt_location">Location:</string>
+    <string name="txt_timezone">Timezone:</string>
+    <string name="txt_cust_terminal_id">Customer Terminal ID:</string>
+    <string name="txt_surcharge">Surcharge:</string>
+    <string name="txt_created_date">Created Date:</string>
+    <string name="txt_created_by">Created By:</string>
+    <string name="txt_subnet_mask">Subnet Mask:</string>
+    <string name="txt_gateway">Gateway:</string>
+
+
+</resources>

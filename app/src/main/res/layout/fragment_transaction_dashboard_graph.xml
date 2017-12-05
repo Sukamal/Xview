@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="@dimen/text_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextviewNormalWhite"
+        android:textStyle="bold"
+        android:text="@string/txt_current_day"
+        android:gravity="center"
+        android:layout_margin="@dimen/text_margin"/>
+
+    <com.everi.xview.customviews.piechart.PieChartView
+        android:id="@+id/pie_view"
+        android:layout_width="@dimen/pie_chart_size"
+        android:layout_height="@dimen/pie_chart_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/view_margin"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/view_margin"
+            android:layout_marginBottom="@dimen/view_margin"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_1"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_1"/>
+                <TextView
+                    android:id="@+id/tv_pos_debit"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_pos_debit"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_2"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_2"/>
+                <TextView
+                    android:id="@+id/tv_pinless_credit"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_pinless_credit"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_3"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_3"/>
+                <TextView
+                    android:id="@+id/tv_atm_withdrawal"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_atm_withdrawal"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_4"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_4"/>
+                <TextView
+                    android:id="@+id/tv_atm_bal_inq"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_atm_bal_inq"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_5"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_5"/>
+                <TextView
+                    android:id="@+id/tv_check_cash"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_check_cash"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <View
+                    android:id="@+id/v_color_6"
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:background="@color/g_color_6"/>
+                <TextView
+                    android:id="@+id/tv_dcc_sign"
+                    style="@style/TextviewNormalWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_dcc_sing"
+                    android:layout_marginLeft="@dimen/view_margin"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

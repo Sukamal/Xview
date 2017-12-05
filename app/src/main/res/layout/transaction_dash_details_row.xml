@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_trans_details_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_column_1"
+        style="@style/TextviewNormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.55"
+        android:text="Transaction Type"
+        android:padding="5dp"/>
+
+    <View style="@style/Separator_Horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_column_2"
+        style="@style/TextviewNormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:text="Count"
+        android:padding="5dp"/>
+
+    <View style="@style/Separator_Horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_column_3"
+        style="@style/TextviewNormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="%"
+        android:padding="5dp"/>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="transaction_status_array">
+        <item>COMPLETED</item>
+        <item>DECLINED</item>
+        <item>DENIED</item>
+        <item>VOIDED</item>
+
+    </string-array>
+
+    <string-array name="transaction_type_array">
+        <item>All transaction Types</item>
+        <item>Withdrawal</item>
+        <item>Deposit</item>
+
+    </string-array>
+
+
+
+</resources>

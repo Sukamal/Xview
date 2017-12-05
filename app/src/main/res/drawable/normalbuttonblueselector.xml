@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="false" android:dither="true" android:variablePadding="false">
+    <!--<item android:drawable="@color/button_blue_light" android:state_focused="true" />
+    <item android:drawable="@color/button_blue_light" android:state_active="true" />
+    <item android:drawable="@color/button_blue_light" android:state_selected="true" />
+    <item android:drawable="@color/button_blue_light" android:state_pressed="true" />
+    <item android:drawable="@color/button_disable" android:state_enabled="false" />
+    <item android:drawable="@color/button_blue_dark" />-->
+
+
+    <item android:drawable="@drawable/button_blue_selected" android:state_focused="true" />
+    <item android:drawable="@drawable/button_blue_selected" android:state_active="true" />
+    <item android:drawable="@drawable/button_blue_selected" android:state_selected="true" />
+    <item android:drawable="@drawable/button_blue_selected" android:state_pressed="true" />
+    <item android:drawable="@drawable/button_blue_selected" android:state_enabled="false" />
+    <item android:drawable="@drawable/button_blue_normal" />
+
+</selector>

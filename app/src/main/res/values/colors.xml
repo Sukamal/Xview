@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#24135F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--<color name="colorAccent">#3F51B5</color>-->
+
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="button_blue_light">#3F51B5</color>
+    <color name="button_blue_dark">#24135F</color>
+    <color name="button_disable">#bfbcbc</color>
+
+
+    <color name="hint_text">#BABABA</color>
+
+    <color name="login_edittext_border_color">#D2D2D2</color>
+    <color name="login_edittext_bsase_color">#F1F1F1</color>
+    <color name="blue">#24135F</color>
+    <color name="blue_background">#141450</color>
+    <color name="green">#00FF00</color>
+
+
+    <color name="dashboard_rowcolor_1">#DDDDDD</color>
+    <color name="dashboard_rowcolor_2">#CCCCCC</color>
+    <color name="dashboard_rowcolor_3">#EEEEEE</color>
+
+    <color name="page_indicator_active">#313131</color>
+    <color name="page_indicator_inactive">#989898</color>
+
+    <color name="color_red">#FF0000</color>
+    <color name="color_dark_green">#008800</color>
+
+    <color name="color_red_dark">#cc0000</color>
+
+
+    <color name="g_color_1">#2B78E4</color>
+    <color name="g_color_2">#FFFF00</color>
+    <color name="g_color_3">#FF9900</color>
+    <color name="g_color_4">#9900FF</color>
+    <color name="g_color_5">#123456</color>
+    <color name="g_color_6">#CC0000</color>
+
+
+
+
+
+</resources>

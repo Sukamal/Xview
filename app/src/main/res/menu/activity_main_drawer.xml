@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transaction_dashboard"
+            android:icon="@drawable/ic_pie_chart"
+            android:title="@string/txt_transaction_dashboard"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transaction_list"
+            android:icon="@drawable/ic_list_black"
+            android:title="@string/txt_transaction_list"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_terminal_dashboard"
+            android:icon="@drawable/ic_branding"
+            android:title="@string/txt_terminal_dashboard"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_atm_state_dashboard"
+            android:icon="@drawable/ic_dvr"
+            android:title="@string/txt_atm_state_dashboard"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_terminal_command"
+            android:icon="@drawable/ic_dvr"
+            android:title="@string/txt_terminal_commands"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_terminal_key_change"
+            android:icon="@drawable/ic_key"
+            android:title="@string/txt_terminal_key_change"
+            android:visible="false"/>
+
+    </group>
+
+</menu>

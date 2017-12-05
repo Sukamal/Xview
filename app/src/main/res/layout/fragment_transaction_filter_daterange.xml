@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextviewNormalWhite"
+                android:text="@string/txt_dates"
+                android:layout_margin="@dimen/view_margin"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_filterdate_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/view_margin"
+                android:background="@drawable/shape_rectangle_filter_top">
+
+                <ImageView
+                    android:id="@+id/iv_arrow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_arrow_right"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/tv_startdate_lebel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextviewNormalBold"
+                    android:layout_toLeftOf="@id/iv_arrow1"
+                    android:text="@string/txt_start_date"/>
+                <TextView
+                    android:id="@+id/tv_selected_startdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextviewNormal"
+                    android:layout_toLeftOf="@id/iv_arrow1"
+                    android:layout_below="@id/tv_startdate_lebel"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/transparent"/>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_filterdate_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/view_margin"
+                android:background="@drawable/shape_rectangle_filter_buttom">
+
+                <ImageView
+                    android:id="@+id/iv_arrow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_arrow_right"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/tv_enddate_lebel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextviewNormalBold"
+                    android:layout_toLeftOf="@id/iv_arrow2"
+                    android:text="@string/txt_end_date"/>
+                <TextView
+                    android:id="@+id/tv_selected_enddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextviewNormal"
+                    android:layout_toLeftOf="@id/iv_arrow2"
+                    android:layout_below="@id/tv_enddate_lebel"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
